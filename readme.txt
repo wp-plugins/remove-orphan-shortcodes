@@ -16,7 +16,7 @@ This is a simple plugin which automatically hides unused (orphan) shortcode tags
 
 == Installation ==
 
-- Upload remove_orphan_shortcodes.zip to plugins, like any other plugin, or upload unzipped folder remove to wp-content/plugins/
+- Upload remove-orphan-shortcodes.zip to plugins, like any other plugin, or upload unzipped folder remove to wp-content/plugins/
 - Activate the plugin through the "Plugins" menu in WordPress
 
 == Frequently Asked Questions ==
