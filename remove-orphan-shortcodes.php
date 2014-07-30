@@ -10,11 +10,11 @@ Author URI: http://mekshq.com
 
 if(!function_exists('remove_orphan_shortcodes')){
 
-/* Hook shortcodes removal function to the_content filter */
-add_filter('the_content', 'remove_orphan_shortcodes', 0);
+	/* Hook shortcodes removal function to the_content filter */
+	add_filter('the_content', 'remove_orphan_shortcodes', 0);
 
-/* Main function which finds and hides unused shortcodes */
-function remove_orphan_shortcodes($content) {
+	/* Main function which finds and hides unused shortcodes */
+	function remove_orphan_shortcodes($content) {
 		global $shortcode_tags;
 		
 		//Check for active shortcodes
@@ -33,9 +33,9 @@ function remove_orphan_shortcodes($content) {
 		}
 		
 		$content = str_replace($hack,"/",$content); // set "/" back to its place
-		
-  	return $content;
-}
+			
+	  	return $content;
+	}
 
 }
 

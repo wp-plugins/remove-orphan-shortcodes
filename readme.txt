@@ -3,7 +3,7 @@ Contributors: mekshq
 Donate link: http://mekshq.com/
 Tags: shortcodes, shortcode, php, content, tag, tags, automatic, editor, simple, text
 Requires at least: 3.0
-Tested up to: 3.8
+Tested up to: 3.9.1
 Stable tag: 1.0
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl.html
@@ -12,9 +12,9 @@ Quickly remove unused (orphan) shortcode tags from your content.
 
 == Description ==
 
-This is a simple plugin which automatically hides unused (orphan) shortcode tags added by previous themes and/or plugins. You can best use it if you want to switch to another WordPress theme, and avoid manual removal of unused shortcode tags inside your content.
+This is a simple plugin which automatically hides inactive (orphan) shortcode tags you have used for previous themes and/or plugins. It uses the_content filter to search for shortcode tags which are not active and simply removes them from your post/page content (note the shortode tags won't be deleted form your content, they will just be removed temporarily on your website frontend). It is a great solution if you want to avoid manual removal of old shortcode tags from your entire content.
 
-This plugin is created by <a href="http://mekshq.com" target="_blank">MeksHQ</a>
+Remove Orphan Shortcodes plugin is created by <a href="http://mekshq.com" target="_blank">MeksHQ</a>
 
 == Installation ==
 
